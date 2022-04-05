@@ -50,6 +50,14 @@ namespace PointOfSaleSpecs {
             Assert.AreEqual("$25.00", price);
         }
 
+        [Test]
+        public void display_sum_of_prices_when_total_is_introduced_when_scan_12345_barcode() {
+            var price = string.Empty;
+
+            price = PointOfSale.Run("12345", 3);
+
+            Assert.AreEqual("$21.75", price);
+        }
     }
 
     public class PointOfSale {
@@ -58,7 +66,7 @@ namespace PointOfSaleSpecs {
             if (barCode == string.Empty) return "Error: empty barcode";
             if (barCode == "99999") return "Error: barcode not found";
             if (barCode == "23456") return $"${(12.50D * total).ToString("0.00", CultureInfo.InvariantCulture)}";
-            return "$7.25";
+            return $"${(7.25D * total).ToString("0.00", CultureInfo.InvariantCulture)}";
         }
     }
 }
