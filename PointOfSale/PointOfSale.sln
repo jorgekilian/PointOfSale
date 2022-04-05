@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointOfSale", "PointOfSale\PointOfSale.csproj", "{DB9481B9-63BB-4DB1-A12B-50491711F3A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB9481B9-63BB-4DB1-A12B-50491711F3A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9481B9-63BB-4DB1-A12B-50491711F3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB9481B9-63BB-4DB1-A12B-50491711F3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9481B9-63BB-4DB1-A12B-50491711F3A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8A9ECB5-AC68-4F1F-B620-3D4B525185C0}
+	EndGlobalSection
+EndGlobal
